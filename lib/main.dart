@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
         return MaterialApp(
           title: '흐르지마',
           initialRoute: '/',
+          debugShowCheckedModeBanner: false,
           routes: {
             '/': (context) => const NavigationPage(),
           },
